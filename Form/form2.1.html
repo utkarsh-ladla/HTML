@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3><b\> JOb Application</h3>
+
+    <label for="name1">Name</label>
+    <input type="text" name="Name" id="name1">
+    <br><br>
+
+    <label for="email">Email</label>
+    <input type="text" name="Email" id="email">
+    <br><br>
+
+    <label for="phone1">Phone</label>
+    <input type="tel" name="Phone" id="phone1">
+    <br><br>
+
+    <label for="resume">Resume</label>
+    <input type="file" name="upload" id="resume">
+    <br><br>
+
+    <!-- "number" type is used for counting number like age with trigger -->
+    <label for="Experience1">Experience (year) </label><br>
+    <input type="number" name="Experience" id="Experience1" min="0" max="50">
+
+    <fieldset>
+        <legend> Skill </legend>
+
+        
+        <input type="checkbox" name="html" id="html1"><br>
+        <label for="html1">HTML</label><br>   
+
+        <input type="checkbox" name="CSS" id="css1"><br>
+        <label for="css1">CSS</label><br>
+
+        <input type="checkbox" name="Javascript" id="javascript1"><br>
+        <label for="javascript1">javascript</label><br>   
+    </fieldset>
+
+    <h4>Higher Education</h4>
+    <select name="Education" id="Higher Education">
+
+        <option value="High school">High school</option>
+        <option value="post graduation">post graduation</option>
+        <option value="graduation">graduation</option>
+
+    </select>
+
+    <fieldset>
+        <legend>Availability</legend>
+
+        <label for="full time">Full time</label>
+        <input type="radio" name="radio" id="full time"><br>
+
+        <!-- here we use radio in name attribute it help to select only one radio -->
+        <label for="part time">Part time</label>
+        <input type="radio" name="radio" id="Part time"><br>
+    </fieldset>
+
+    <label for="comment">Comment:</label>
+    <br>
+    <textarea name="Comment" id="comment" cols="30" rows="10" placeholder="Enter comment here"></textarea>
+    <br><br>
+    <button>submit Application</button>
+
+
+</body>
+</html>
